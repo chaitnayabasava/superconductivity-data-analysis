@@ -1,3 +1,3 @@
 # superconductivity-data-analysis
 
-The analysis of the data is discribed in the report.
+In this study, data for multilinear regression analysis is taken from SuperCon database. Assumptions of multilinear regression analysis - normality, linearity, no extreme values and missing values were examined.Then a regression model was fitted using the data and was evaluated based on adjusted R square. The correlation matrix was plotted and an observation was noted that there are many related features. Thus Principal Component Analysis(PCA) and Factor analysis were used to reduce the dimension but the adjusted R-squared's value proved to be not so good compared to the original data. Then to overcome heteroscedasticity (different variability), Box-Cox method was used and this helped in achieving a good adjusted R square(appx. 0.93) compared to that of the initial data(0.869).
